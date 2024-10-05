@@ -32,6 +32,8 @@ $ npm install
 3. run the app
 
 ```bash
+# inside /frontend folder
+
 # development
 $ npm run dev
 
@@ -58,12 +60,15 @@ $ npm run db:migrate
 5. run the app
 
 ```bash
+# inside /backend folder
 $ npm run start
 ```
 
 ## migrations
 
 ```bash
+# inside /backend folder
+
 # run migration
 npm run db:migrate
 
