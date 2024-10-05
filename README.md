@@ -55,8 +55,9 @@ $ npm run start
 ```bash
 # inside /backend folder
 $ npm run start
+
+# stop the process
 ```
-stop the process
 
 5. run migration:
 
