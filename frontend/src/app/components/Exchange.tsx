@@ -11,15 +11,18 @@ const Exchange = () => {
     setIsLoading(true);
     setIsError(false);
     try {
-      const response = await fetch("http://localhost:5000/transactions", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify({
-          value,
-        }),
-      });
+      const response = await fetch(
+        `${process.env.NEXT_PUBLIC_API_URL}/transactions`,
+        {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify({
+            value,
+          }),
+        }
+      );
       const data = await response.json();
 
       setIsLoading(false);

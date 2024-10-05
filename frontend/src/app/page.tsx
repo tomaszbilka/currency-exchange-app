@@ -4,7 +4,7 @@ import RedirectButton from "./components/RedirectButton";
 export const revalidate = 60;
 
 export default async function Home() {
-  const data = await fetch("http://localhost:5000/transactions/current-rate")
+  const data = await fetch(`${process.env.API_URL}/transactions/current-rate`)
     .then((res) => res.json())
     .catch((error) => console.log(error));
 
