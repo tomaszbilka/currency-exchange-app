@@ -49,15 +49,23 @@ $ npm run start
 2. copy `.env.example` to `.env` and fill the values if needed
 
 3. create data base with name from `.env` file
+   
+4. create `dist` folder by running:
+   
+```bash
+# inside /backend folder
+$ npm run start
+```
+stop the process
 
-4. run migration:
+5. run migration:
 
 ```bash
 # inside /backend folder
 $ npm run db:migrate
 ```
 
-5. run the app
+6. run the app
 
 ```bash
 # inside /backend folder
