@@ -20,9 +20,9 @@ $ npm install
 
 ## Running the frontend app
 
-1. go to /frontend folder
+1. go to `/frontend` folder
 
-2. copy .env.example to .env and fill the values if needed
+2. copy `.env.example` to `.env` and fill the values if needed
 
 3. run the app
 
@@ -37,11 +37,11 @@ $ npm run start
 
 ## Running the backend app
 
-1. go to /backend folder
+1. go to `/backend` folder
 
-2. copy .env.example to .env and fill the values if needed
+2. copy `.env.example` to `.env` and fill the values if needed
 
-3. create data base with name from .env file
+3. create data base with name from `.env` file
 
 4. run migration:
 
