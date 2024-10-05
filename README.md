@@ -6,6 +6,11 @@ This is an application consisting of two parts: a **backend** written in Nest.js
 
 **Frontend**: The home page uses SSG, rebuilt every 60 seconds (the user must refresh the page to see the new exchange rate, gaining speed in page delivery to the browser at the cost of potentially outdated data; this approach can, of course, be adjusted depending on the needs). Users can navigate to the exchange tab, where they can send a request to calculate the exchange value.
 
+## Preview
+
+https://github.com/user-attachments/assets/6da6b5e0-cefe-450f-b6f3-c6f10880b1dc
+
+
 ## Installation
 
 > node version: v20.15.0
